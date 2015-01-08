@@ -26,7 +26,7 @@ if ( !defined('EQDKP_INC') ){
 if(!class_exists('tera')) {
 	class tera extends game_generic {
 		protected static $apiLevel	= 20;
-		public $version				= '26.04';
+		public $version				= '26.1.0';
 		protected $this_game		= 'tera';
 		protected $types			= array('classes', 'races', 'filters', 'roles');
 		protected $classes			= array();
