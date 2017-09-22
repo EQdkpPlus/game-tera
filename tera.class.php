@@ -57,9 +57,9 @@ if(!class_exists('tera')) {
 		);
 		
 		public $default_roles = array(
-			1 => array(3),			// defence
-			2 => array(2, 6, 8),	// melee offense
-			3 => array(1, 7),		// ranged offense
+			1 => array(3, 11),		// defence
+			2 => array(2, 6, 8, 9, 12, 13),	// melee offense
+			3 => array(1, 7, 10),		// ranged offense
 			4 => array(4, 5)		// support
 		);
 		
