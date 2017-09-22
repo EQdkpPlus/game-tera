@@ -64,15 +64,19 @@ if(!class_exists('tera')) {
 		);
 		
 		protected $class_colors = array(
-			1	=> '#E18FF1',
-			2	=> '#C97840',
-			3	=> '#69444B',
-			4	=> '#6CB6CF',
-			5	=> '#5B8C79',
-			6	=> '#91BC51',
-			7	=> '#E68C84',
-			8	=> '#DFBA74',
-			9	=> '#800080',
+			1	=> '#E18FF1',  // Archer
+			2	=> '#C97840',  // Berserker
+			3	=> '#69444B',  // Lancer
+			4	=> '#6CB6CF',  // Mystic
+			5	=> '#5B8C79',  // Priest
+			6	=> '#91BC51',  // Slayer
+			7	=> '#E68C84',  // Sorcerer
+			8	=> '#DFBA74',  // Warrior
+			9	=> '#800080',  // Reaper
+			10	=> '#00008B',  // Gunner
+			11	=> '#8B0000',  // Brawler
+			12	=> '#FFFFFF',  // Ninja
+			13	=> '#FF8C00',  // Valkyrie
 		);
 
 		protected $glang		= array();
