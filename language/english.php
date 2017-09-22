@@ -34,6 +34,10 @@ $english_array =  array(
 		7	=> 'Sorcerer',
 		8	=> 'Warrior',
 		9	=> 'Reaper',
+		10	=> 'Gunner',
+		11	=> 'Brawler',
+		12	=> 'Ninja',
+		13	=> 'Valkyrie',
 	),
 	'races' => array(
 		0	=> 'Unknown',

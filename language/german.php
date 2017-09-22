@@ -34,6 +34,10 @@ $german_array = array(
 		7	=> 'Zauberer',
 		8	=> 'Krieger',
 		9	=> 'Klingentänzer',
+		10	=> 'Arkaningenieur',
+		11	=> 'Sturmfurie',
+		12	=> 'Ninja',
+		13	=> 'Mondtänzer',
 	),
 	'races' => array(
 		0	=> 'Unknown',

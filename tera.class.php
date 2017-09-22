@@ -26,7 +26,7 @@ if ( !defined('EQDKP_INC') ){
 if(!class_exists('tera')) {
 	class tera extends game_generic {
 		protected static $apiLevel	= 20;
-		public $version				= '26.1.0';
+		public $version				= '26.2.0';
 		protected $this_game		= 'tera';
 		protected $types			= array('classes', 'races', 'filters', 'roles');
 		protected $classes			= array();
@@ -57,22 +57,26 @@ if(!class_exists('tera')) {
 		);
 		
 		public $default_roles = array(
-			1 => array(3),			// defence
-			2 => array(2, 6, 8),	// melee offense
-			3 => array(1, 7),		// ranged offense
+			1 => array(3, 11),		// defence
+			2 => array(2, 6, 8, 9, 12, 13),	// melee offense
+			3 => array(1, 7, 10),		// ranged offense
 			4 => array(4, 5)		// support
 		);
 		
 		protected $class_colors = array(
-			1	=> '#E18FF1',
-			2	=> '#C97840',
-			3	=> '#69444B',
-			4	=> '#6CB6CF',
-			5	=> '#5B8C79',
-			6	=> '#91BC51',
-			7	=> '#E68C84',
-			8	=> '#DFBA74',
-			9	=> '#800080',
+			1	=> '#E18FF1',  // Archer
+			2	=> '#C97840',  // Berserker
+			3	=> '#69444B',  // Lancer
+			4	=> '#6CB6CF',  // Mystic
+			5	=> '#5B8C79',  // Priest
+			6	=> '#91BC51',  // Slayer
+			7	=> '#E68C84',  // Sorcerer
+			8	=> '#DFBA74',  // Warrior
+			9	=> '#800080',  // Reaper
+			10	=> '#00008B',  // Gunner
+			11	=> '#8B0000',  // Brawler
+			12	=> '#FFFFFF',  // Ninja
+			13	=> '#FF8C00',  // Valkyrie
 		);
 
 		protected $glang		= array();
